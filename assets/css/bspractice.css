@@ -48,25 +48,30 @@ a:active {
 }
 
 .navbar	{
-    height: 75px;
+    height: 100px;
     background-color: #ffffff;
     border-bottom: 3px;
     border-bottom-color: #cccccc;
     border-bottom-style: solid;
+    padding: 0 0 0 3rem;
 }
 
 .navbar-header {
-    height: 71px;
-    width: 500px;
+    height: 100px;
 
 } 
 
+.navcontainer {
+    height: 100px;
+    width: 100%;
+}
+
 .navbar-brand {
-    height: 71px;
+    min-height: 100%;
     background-color: #4aaaa5;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     font-size: xx-large;
-    padding-top: 15px;
+    padding-top: 25px;
     color: white !important;
     width: 250px;
     text-align: center;
@@ -102,7 +107,10 @@ a:active {
     
 }
     
+.social {
+    align-content: space-between;
 
+}
 
 .work {
     position: relative;
